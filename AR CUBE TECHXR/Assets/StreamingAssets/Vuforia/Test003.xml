@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="TechXrCube.Front" size="0.100000 0.100000"/>
+        <ImageTarget name="TechXrCube.Right" size="0.100000 0.100000"/>
+        <ImageTarget name="TechXrCube.Left" size="0.100000 0.100000"/>
+        <ImageTarget name="TechXrCube.Back" size="0.100000 0.100000"/>
+        <ImageTarget name="TechXrCube.Top" size="0.100000 0.100000"/>
+        <ImageTarget name="TechXrCube.Bottom" size="0.100000 0.100000"/>
+        <MultiTarget name="TechXrCube">
+            <Part name="TechXrCube.Left" translation="-0.05000000074505806 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="TechXrCube.Right" translation="0.05000000074505806 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="TechXrCube.Front" translation="0 0 0.05000000074505806" rotation="AD: 1 0 0 0"/>
+            <Part name="TechXrCube.Back" translation="0 0 -0.05000000074505806" rotation="AD: 0 1 0 180"/>
+            <Part name="TechXrCube.Top" translation="0 0.05000000074505806 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="TechXrCube.Bottom" translation="0 -0.05000000074505806 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
